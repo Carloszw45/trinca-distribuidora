@@ -1,0 +1,38 @@
+TRINCA DISTRIBUIDORA — VERSÃO DE APRESENTAÇÃO
+
+1. Abra index.html no navegador para visualizar a loja. Imagens e fontes exigem conexão com a internet.
+2. O catálogo tem preços fictícios de apresentação. Antes de publicar, substitua todos os valores e revise embalagens, unidades e disponibilidade.
+3. Para mudar o WhatsApp: abra index.html, localize 'const WHATSAPP_NUMBER' e troque pelo número comercial completo (55 + DDD + telefone).
+4. Para mudar produtos e preços: localize 'const products = [' no arquivo index.html.
+5. O carrinho permite adicionar, remover, aumentar/diminuir quantidades e monta uma mensagem para o WhatsApp. Não há checkout de pagamento online.
+6. Imagens são fotografias reais hospedadas em fontes externas (principalmente Unsplash). Parte delas ilustra categorias e NÃO é fotografia da embalagem exata anunciada; substitua pelas fotos correspondentes do estoque real antes de publicar. Fotos externas podem ficar indisponíveis sem aviso, e é necessário conferir licença/permissão de uso comercial para fotos de terceiros fora da Unsplash.
+   NOVO VISUAL: as imagens ficam centralizadas e inteiras no card, com fundo desfocado, luz âmbar e bordas suaves; o topo tem foto real de prateleiras de bebidas em uma adega/bar. O movimento de luz é suave e desliga automaticamente para quem prefere movimento reduzido.
+   ATUALIZAÇÃO DE FOTOS: foram substituídas dez imagens do catálogo: Corona, cerveja lager, combo de cervejas, Red Bull, Jack Daniel's, M&M's, balas de gelatina, batata chips, água mineral e gelo. Nenhuma imagem foi gerada por IA. Os produtos no carrinho usam a mesma imagem do catálogo.
+7. Venda de bebidas alcoólicas proibida para menores de 18 anos. Existe uma confirmação de idade de demonstração, que não substitui verificação apropriada.
+8. Produtos de tabaco não aparecem no catálogo on-line: a RDC 840/2023 da Anvisa proíbe oferta e venda de derivados do tabaco pela internet no Brasil.
+9. Para colocar online: hospede os arquivos estáticos em Cloudflare Pages, GitHub Pages ou Netlify. Você precisará configurar endereço, taxas de entrega, preços reais e detalhes operacionais.
+
+REFERÊNCIAS DAS FOTOGRAFIAS (amostra):
+https://unsplash.com/photos/heineken-beer-bottle-on-green-surface-mhad_4H6S14
+https://unsplash.com/photos/two-bottles-of-corona-beer-sitting-on-top-of-a-table-Tx7-iFPKNQY
+https://unsplash.com/photos/a-can-of-coca-cola-on-a-black-background-ScK3g3ID1Dg
+https://unsplash.com/photos/person-holding-red-bull-energy-drink-can-gCYG88g4wqw
+https://unsplash.com/photos/a-bottle-of-whiskey-sitting-on-top-of-a-table-E3ZJ8fSk5Bs
+https://unsplash.com/photos/m-ms-chocolate-pack-qt2MiDTbL_A
+https://unsplash.com/photos/colorful-gummy-bears-piled-up-in-a-tray-ndkbgxkwuRc
+https://unsplash.com/photos/a-display-of-bottles-of-various-types-of-liquor-FJM39wPvJgA
+https://unsplash.com/photos/dimly-lit-bar-interior-with-bottles-on-shelves-1zGxaFuG7LY
+https://unsplash.com/photos/coca-cola-soda-can-3AY4Wjp28-k
+https://unsplash.com/photos/coca-cola-zero-can-on-red-and-white-wall-v0shZzmCnVg
+https://unsplash.com/es/fotos/lata-de-refresco-de-naranja-fanta-en-estante-blanco-cnfRVPNSPFo
+https://unsplash.com/pt-br/fotografias/uma-lata-de-sprite-em-uma-superficie-branca-oaE6Zllcc6Y
+https://unsplash.com/photos/corona-extra-beer-bottle-K5j9MQY-xW0
+https://unsplash.com/photos/black-and-green-labeled-bottle-HMSOl7ZX-hM
+https://unsplash.com/photos/bottles-of-beer-chilling-in-ice-s799DJAgsRA
+https://unsplash.com/photos/red-bull-energy-drink-can-B2Cs6kw5VNM
+https://unsplash.com/pt-br/fotografias/jack-daniels-velho-no-7-tennessee-garrafa-de-uisque-ao-lado-de-vidro-de-beber-transparente-w2C731GlwKk
+https://unsplash.com/photos/a-bag-of-candy-sitting-on-top-of-a-white-table-uhdqHcBc8yI
+https://unsplash.com/photos/a-bunch-of-gummy-bears-sitting-on-top-of-each-other-HISBZHIeEks
+https://unsplash.com/photos/potato-chips-in-bowl-ONQ86GlHs3c
+https://unsplash.com/photos/blue-lid-clear-plastic-bottle-Z2NCX2qIIjg
+https://unsplash.com/photos/a-bag-is-filled-with-cubed-ice-xS5cQc27iEs
